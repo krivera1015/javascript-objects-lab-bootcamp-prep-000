@@ -15,4 +15,3 @@ function destructivelyDeleteFromObjectByKey(obj, ingredients) {
   delete obj['ingredients'];
   return obj;
 }
-
