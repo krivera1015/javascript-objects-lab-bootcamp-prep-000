@@ -10,3 +10,9 @@ function destructivelyUpdateObjectWithKeyAndValue(obj, ingredients, amount) {
   obj[ingredients] = amount;
   return obj;
 }
+
+function destructivelyDeleteFromObjectByKey(obj, ingredients) {
+  delete obj['ingredients'];
+  return obj;
+}
+
