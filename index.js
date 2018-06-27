@@ -16,7 +16,3 @@ function deleteFromObjectByKey(obj, ingredients) {
   delete newObj['ingredients'];
   return newObj;
 }
-
-function destructivelyDeleteFromObjectByKey(obj, ingredients) {
-
-}
